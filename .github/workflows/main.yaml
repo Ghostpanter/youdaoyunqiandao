@@ -2,7 +2,7 @@ name: Run
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天在国际标准时间0点（北京时间8点）运行
+    - cron: '0 2 * * *' # 每天在国际标准时间0点（北京时间8点）运行
   workflow_dispatch:
   repository_dispatch:
 
